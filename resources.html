@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata">
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap' rel="stylesheet">
+    <link rel="icon" href="Images/logowhite.png" type="image/ico">
+    <title>PHSN Robotics: Resources</title>
+  </head>
+  <body>
+      
+      <!-- MENU BAR -->
+      <div class="menuBar">
+          <div class="menuContent">
+        <div class="menuGrid">
+          <div class="menuLogo">
+            <img src="Images/logowhite.png" width=70px>
+            <h2 class="menuTitle">PHSN Robotics Club</h2></div>
+            <a class="menuOption" href="home.html">Home</a>
+            <a class="menuOption" href="teams.html">Our Teams</a>
+            <a class="currentMenu" href="resources.html">Resources</a>
+            <a class="menuOption" href="competition.html">The Competition</a>
+            <a class="menuOption" href="clubHistory.html">Club History</a>
+            <a class="menuOption" href="contact.html">Contact Us</a>
+          </div>
+      </div>
+
+      </div>
+      <!-- MENU FOR MOBILE -->
+    <div class="mobileMenu">
+        <div class="visibleMenu">
+          <div class="menuContent">
+            <div class="menuGrid">
+              <div class="menuLogo">
+                <img src="Images/logowhite.png" width=70px>
+                <h2 class="menuTitle">PHSN Robotics Club</h2></div>
+                <div></div>
+                <a class="menuOption" href="home.html">Home</a>
+                
+                <!-- competition reseources -->
+                <div class="dropdown">
+                    <button class="dropButton">Competiton</button>
+                    <div class="dropContent">
+                        <a class="menuOption" href="teams.html">Our Teams</a>
+                        <a class="currentMenu" href="resources.html">Resources</a>
+                        <a class="menuOption" href="competition.html">The Competition</a>
+                    </div>
+                </div>
+                <a class="menuOption" href="clubHistory.html">Club History</a>
+                <a class="menuOption" href="contact.html">Contact Us</a>
+              </div>
+          </div>
+        </div>
+    </div>    
+    
+    <div id="resourcesPage">
+        <a class="scrollButton" href="#top"><img src="Images/arrow.png" width="35%"></a>
+
+ <!------------------------------SIDEBAR------------------------------>
+      <div class="sideMenu">
+          <div class="sideText">
+            <h4>Resources</h4>
+            <h6><a class="link" href="#chassis">Chassis</a></h6>
+            <h6><a class="link" href="#4bar">Lifts</a></h6>
+            <h6><a class="link" href="#intakes">Intakes</a></h6>
+            <h6><a class="link" href="#claw">Clamps/Claws</a></h6>
+            <h6><a class="link" href="#flip">Flip Outs</a></h6>
+            <h6><a class="link" href="#ide">VexCode IDE</a></h6>
+            <h6><a class="link" href="#drive">Drive Code</a></h6>
+            <h6><a class="link" href="#api">VEX API</a></h6>
+          </div>
+        </div>
+        
+        <!------------------------------Designs------------------------------>
+        <div class="resourcesContent">
+            <br>
+            <br>
+            <br>
+          <h1>Design and Programming Resources</h1>
+          <p>Below are some important resources that are helpful for starting out with building and programming</p>
+          <h1>Design and Hardware</h1>
+          <div>
+            <!--Chassis-->
+              <div id="chassis"></div>
+              <h2>Chassis</h2>
+              <div class="grid">
+                  <img src="Images/chassis.jpeg" alt="An image of a chassis" title="A 4 motor drive chassis" width="100%">
+            <div class="textBlockGray">
+              <p>A chassis is the essential part of the robot, and the first thing built on the robot. It is important to build this well, since this is the foundation for the whole robot, and a pain to replace in the future. As for the motors used to drive the robot, it is recommended to use 2 motors as the drive motors, unless additonal power is needed. We also recommend to use high speed motors, unless the robot is needed to climb up something or push very heavy objects. If that is needed, then use the regular motors, or switch to 4 drive motors. If that still doesn't provide enough torque to complete the task, then either gear up the drivetrain to have a higher torque or switch to high torque motors (this makes your robot slow and can be a major disadvantage, so this should be the last resort)</p>
+              </div>
+              </div>
+              <div>          
+                  <h4>Resources</h4>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=J4lWZ1knZmE">Basic Chassis Design</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=ozVOsZQHKQk">H-Drive Design</a>(This is the most common design we use, minus the middle wheel)</li>
+                  <li><a href="https://www.youtube.com/watch?v=efKBylbvxDU">Great H-Bar Design with chained wheels</a></li></ul></div>
+              <br><hr><br><br>
+          <!--4bar lift-->
+            <div id="4bar"></div>
+              <h2>4 and 6 Bar Lift</h2>
+            <div class="grid">
+                <img src="Images/lift.gif" alt="A gif showing a double reverse 4 bar lift" title="double reverse 4 bar lift" width="100%">
+              <div class="textBlockGray">
+              <p>This is a very commonly used design used in ny robots that need to be able to lift components. When paired with a high-torque motor or torque increasing gear-ratios, these lifts can be very strong, and allows the robots to reach high up objects. The only downside to having a lift like this is that it can make the robot unstable, and this design is likely to tip the whole robot very easily (so a counterweight will be neccessary)</p>
+              </div>
+              </div>
+            <div>
+              <h4>Resources</h4>
+                <ul><li><a href="https://www.youtube.com/watch?v=hZUbCSGAy-o">A great video for 4 and 6 bar lifts</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=uJje3yWcTdU">Reverse Double 4 Bar Lift</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=4IXAykEBfMw">Another 4 Bar Example</a></li></ul>
+              </div>
+              <br><hr><br><br>
+
+            <!--Intakes-->
+            <div id="intakes"></div>
+              <h2 id="intakes">Intake Systems</h2>
+              <div class="grid">
+                  <div class="grid">
+                    <img src="Images/intakes%202.png" alt="An intakes system" width="100%">
+                    <img src="Images/intakes.jpeg" alt="Another Intakes System" width="100%">
+                  </div>
+              <div class="textBlockGray">
+              <p>The type of intake system that is needed will depend on the different components used in the competition, but the basic idea is often the same: use some kind of hook, flaps, or wheels to grab objects and move them to somewhere else on the robot. It often helps to have these to be flexible, since most objects that get picked up are not symmetrical and it makes it easier to grab things.</p>
+              </div>
+              </div>
+
+              <div>
+                <h4>Resources</h4>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=W3to4btBOhA">Ball Intake Using Rollers</a></li>
+                <li><a href="https://www.youtube.com/watch?v=pDhllQSIJ_U">Close Up of a Front Intake System</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=8fYHp7r9RX0">Hook Intake</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=eQ7eTrZXiOI">Rollers and Flaps Intake System</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=7sPQ7cf-h-c">Another Great Intake System Using Only Flaps</a></li>
+              </ul>
+              </div>
+              <br><hr><br><br>
+
+             <!--Claws-->
+            <div id="claw"></div>
+              <h2>Claws/Clamps</h2>
+              <div class="grid">
+                  <div class="grid">
+                  <img src="Images/clamp.gif" alt="a clamp" title="A Basic Clamp Design" width="100%">
+                  <img src="Images/claw.jpeg" alt="a claw" title="The Pre-Built VEX Claws" width="80%">
+                  </div>
+              <div class="textBlockGray">
+              <p>A claw can be used whenever something needs picked up to be moved somewhere else. To get a claw to close using one motor, make sure to have an even number of gears, so the sides of the claw will move in opposite directions.</p>
+                  <p>For a clamp you will want to connect this to a motor and push down on the object (the best angle for this is usually perpendicular to the contact point) This can also be done with pneumatics.</p>
+              </div>
+              </div>
+
+              <div>
+                <h4>Resources</h4>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=9o3AjBX5ttE">Shows the Pre-Built VEX Claws</a></li>
+                <li><a href="https://www.youtube.com/watch?v=O0rWHGYLHrE">A Basic Clamp Design</a></li>
+                <li><a href="https://www.youtube.com/watch?v=7ZGGgFCzGQo">Another Clamp Design</a></li>
+              </ul>
+              </div>
+              <br><hr><br><br>
+
+            <!--Flip outs-->
+            <div id="flip"></div>
+              <h2>Flip Out Mechanisms</h2>
+              <div class="grid">
+                  <div class="grid">
+                  <img src="Images/flipout.gif" alt="A gif of a flip-out" title="A very complex flipout mechanism" width="100%">
+                    <img src="Images/flipout.jpeg" alt="a flipout design" title="A simple flipout" width="80%">
+
+                  </div>
+              <div class="textBlockGray">
+              <p>Because of the size requirements, many teams use different flip-out mechanisms to allow for more components within the 18 inches (Just make sure that the fully extended width doesn't exceed 36in). These flipouts often have some use of motors or rubber band tenison to allow the component to move to position. For rubber bands, you will want the component to connect to some other part of the robot that will be able to trigger the bands to pull to the correct position. Motors can be used to let components nest inside the robot, plus this gives them more functionality.</p>
+              </div>
+              </div>
+
+              <div>
+                <h4>Resources</h4>
+                <ul>
+                  <li><a href="https://www.youtube.com/watch?v=LN3lBOQ-e4w">A Flip-Out Anti-Tip Mechanism</a></li>
+                <li><a href="https://www.youtube.com/watch?v=2AD0c_0hoGY">Flip-Out Intake Example</a></li>
+              </ul>
+              </div>
+              <br><hr><br><br>
+         </div>
+
+
+        <h1>Programming and Software</h1>
+          <div>
+        <!--IDE-->
+            <div id="ide"></div>
+              <h2>Programming IDE</h2>
+              <div class="grid">
+              <img src="Images/vexcode.png" width="100%">
+            <div class="textBlockGray">
+              <p>We use the VEX Code V5 editors to program the robots. Most teams use the text versions, but the blocks version is also availiable (please dont use this, it is very inefficient and some of the old programmers in the discord will not help anyone who uses blocks, purely because it disgusts them) Both editors are availiable for all computers (including the chromebooks) and if the V5 Pro version is availible on your device, use that version.</p>
+              </div>
+              </div>
+
+              <div>
+                <h4>Dowload Links</h4>
+                <ul>
+                  <li><a href="vexrobotics.com/vexcode/install/v5">VEXCode V5</a></li>
+              </ul>
+                  <h4>Basic Coding Tutorials for VEX V5</h4>
+                  <ul>
+                    <li><a href="https://www.youtube.com/watch?v=HNNz8XwpULM">Coding Basics</a></li>
+                  </ul>
+              </div>
+              <br><hr><br><br>
+
+          <!--Programming Videos-->
+            <div id="drive"></div>
+              <h2>Basic Drive Controls</h2>
+              <div class="grid">
+                <img src="Images/controller.jpeg" alt="a diagram showing the VEX V5 controller buttons" width="100%">
+              <div class="textBlockGray">
+              <p>There are many different ways to configure the driving controls, and this is mostly up to the driver to decide which ones they prefer, but we most commonly code the left joystick to drive the left chassis motor(s) and the right joystick to control the right chassis motor(s). This configuration takes a bit to get used to, but it works best for driving. The other way that some groups use is tank controls, where one joystick controls forward/backward motion, and the other controls turning. We don't use that one too often because it is difficult to code and isn't as good for competition driving. Additionally, if using the joysticks for driving, you will want to allow a tolerance (we usually do about 15) so that the joysticks will only trigger once you push them beyond a certain point. We do this so that if the joysticks get messed up and begin to drift, this won't cause any issues. Other buttons can be configured to move other motors and complete different tasks.</p>
+              </div>
+              </div>
+
+              <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=HNNz8XwpULM">A Beginner Tutorial with Code Setup</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=_-6ouBs-AUk">The Basic Parts of a Program</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=AMkpdeLTw6M">Chassis Controlled by Joysticks</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=0eRuww4zE3Q">How to Program in Buttons</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=wv89hHjXM0Y">Loops and IF Statements</a></li>
+                    <li><a href="https://www.vexforum.com/t/vexcode-motor-groups-and-drivetrain-example/69161">Setting Up Motor Groups/DriveTrain (for those who don't have the option in config)</a></li>
+
+              </ul>
+              </div>
+              <br><hr><br><br>
+          </div>
+
+    <!-- API -->
+    <div id="api"></div>
+    <h2 id="api">VEX V5 API Reference</h2>
+        <div class="grid">
+            <img src="Images/VEXcode_v5.png" width="50%">
+            <div class="textBlockGray">
+              <p>This reference website has everything needed for every function, class, and variables used in Vex V5. It may be a bit difficult to read at first, but learning how to read API references will be very beneficial for anyone who wants to do programming in their future. All of the uppercase names are classes, and all lowercase names with parenthesis are methods (methodName()) You will most often be using the methods. The descriptions will tell you everything you need to know about that specific function/class.</p>
+              </div>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://api.vexcode.cloud/v5/">VEXcode API Reference</a></li>
+                  <li><a href="https://api.vexcode.cloud/v5/namespace/namespacevex?member=namespacevex_1a22877525a92a7b34c603d2e97d2bec16">Units For Different Functions</a></li>
+              </ul>
+              </div>
+              <br><hr><br><br>
+
+    <!-- TEMPLATE
+    <h3>Template</h3>
+        <div class="grid">
+            <div class="textBlockGray">
+              <p>description</p>
+              </div>
+            <div class="clearFloat"></div>
+              <div>
+                <h4>Resources</h4>
+                <ul>
+                  <li></li>
+              </ul>
+              </div>
+
+
+            </div>
+              <br><hr><br><br>
+    -->
+          </div>
+
+      </div>
+      <!-- footer -->
+     <div class="footer">
+         <div class="footerGrid">
+             <div>
+                 <img src="Images/logowhite.png" width="70px">
+                 <h3>PHSN Robotics</h3>
+             </div>
+             <div>
+                 <h3>Pickerington High School North:</h3>
+                <h5>7800 Refugee Rd, Pickerington, OH 43147</h5>
+             </div>             
+             <div>
+                <a class="hoverFlip" href=https://discord.gg/hqBYrPHxad target=”_blank”>
+                    <img src="Images/discord%20purple.png" width="30px">
+                    <img class="top" src="Images/discord.png" width="30px">
+                    </a>         
+             </div>
+             <div>
+             <a href="photoGallery.html">Photos</a>
+             </div>
+             <div><h5 class="credit">Website created by: Samantha Smith</h5>
+             <p class="smallText">PHSN Robotics Member 2018-2022<p></div>
+         </div>
+      </div>
+  </body>
+</html>

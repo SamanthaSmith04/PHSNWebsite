@@ -1,0 +1,680 @@
+/*SMALLER MOBILE*/
+@media only screen and (max-width: 480px) {
+    dd, dt, ul, li, p, a {
+        font-size: 5px;
+    }
+    .menuOption, .currentMenu, .dropButton{
+        font-size: 5px;
+    }
+    .dropButton {
+        background-color: #6600D0;
+        font-size: 5pt;
+        color: white; 
+    }
+    .menuTitle {
+        font-size: 5px;
+    }
+    
+    h1 {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 11px;
+    }
+    h4 {
+        font-size: 9px;
+    }
+    h5 {
+        font-size: 8px;
+    }
+    h6 {
+        font-size: 7px;
+    }
+
+}
+
+
+/*MOBILE*/
+@media only screen and (max-width: 600px) {
+    
+    dd, dt, ul, li, p, a {
+        font-size: 8px;
+    }
+    .menuBar {
+        display: none;
+    }
+    .mobileMenu {
+        background-color: #6600D0;
+        text-align: center;
+        border: 10px #6600D0 solid;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-left: -20px;
+        margin-right: -20px;
+        z-index: 999;
+    }
+    
+    .menuGrid {
+        display: grid;
+        grid-template-columns: 22% 10% 13% 13% 13% 13%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+    }
+    
+    .menuOption, .currentMenu, .dropButton{
+        font-size: 7px;
+    }
+    
+   
+    
+    .dropdown {
+        overflow: hidden;
+    }
+    
+    .dropButton {
+        background-color: #6600D0;
+        font-size: 6pt;
+        color: white; 
+    }
+    
+    .dropContent {
+        display: none;
+        background-color: #6600D0;
+        border: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: -5px 5px 10px #2d0059;
+        z-index: 1;
+        position: absolute;
+    }
+    
+    .dropContent a {
+        display: block;
+        line-height: 20px;
+    }
+    .dropdown:hover .dropContent{
+        transition: 0.3s ease color;
+        color: #AA73E0;
+        display: block;
+    }
+    
+
+    
+    .mobileMenu h1 {
+        color: white;
+    }
+    
+    .menuLogo img {
+        width: 70%;
+    }
+    
+    .menuLogo {
+        padding-left: 15%;
+    }
+    
+    .menuContent {
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    
+    #wrapper {
+        margin-left: 3.5%;
+        margin-right: auto;
+        max-width: 600px;
+        margin-bottom: 100px;
+        margin-top: 15%;
+        overflow-x: hidden;
+    }
+    
+    .menuTitle {
+        font-size: 8px;
+    }
+    
+    .menuGrid .currentMenu {
+        background-color: #4b0098;
+        border: 5px #4b0098 solid;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    
+    .footer h3{
+        font-size: 6pt;
+    }
+    .footer h5, p{
+        font-size: 5pt;
+    }
+    .smallText {
+        font-size: 3pt;
+    }
+    
+    .teamsRight {
+        display: grid;
+        grid-template-columns: 35% 55%;
+        background-color: #39383b;
+        padding: 10px;
+        border: 5px;
+        border-radius: 5px;
+        position: relative;    
+        box-shadow: 5px 5px 10px #18171a;
+    }
+
+    .teamsLeft {
+        display: grid;
+        grid-template-columns: 10% 53% 5% 35%;
+        background-color: #4b0098;
+        padding: 10px;
+        border: 5px;
+        border-radius: 5px;
+        position: relative;  
+        box-shadow: -5px 5px 10px #2d0059;
+    }
+    
+}
+
+/*TABLET*/
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .menuBar {
+        display: none;
+    }
+        .mobileMenu {
+        background-color: #6600D0;
+        text-align: center;
+        border: 10px #6600D0 solid;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-left: -20px;
+        margin-right: -20px;
+        z-index: 999;
+    }
+    
+    .menuGrid {
+        display: grid;
+        grid-template-columns: 22% 10% 13% 13% 13% 13%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+    }
+    
+   
+    
+    .dropdown {
+        overflow: hidden;
+    }
+    
+    .dropButton {
+        background-color: #6600D0;
+        font-size: 8pt;
+        color: white; 
+    }
+    
+    .resourcesContent {
+       margin-top: 50px;
+    }
+    
+    
+    .menuLogo {
+        font-size: 7px;
+    }
+    .dropContent {
+        display: none;
+        background-color: #6600D0;
+        border: 10px;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: -5px 5px 10px #2d0059;
+        z-index: 1;
+        position: absolute;
+    }
+    
+    .dropContent a {
+        display: block;
+        line-height: 20px;
+    }
+    .dropdown:hover .dropContent{
+        transition: 0.3s ease color;
+        color: #AA73E0;
+        display: block;
+    }
+    
+
+    
+    .mobileMenu h1 {
+        color: white;
+    }
+    
+    .menuLogo img {
+        width: 70%;
+    }
+    
+    .menuLogo {
+        padding-left: 15%;
+        font-size: 8pt;
+    }
+    
+    .menuContent {
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    .menuGrid .currentMenu {
+        background-color: #4b0098;
+        border: 9px #4b0098 solid;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    
+    p, dd, dt, ul, li, a {  
+        font-size: 9pt
+    }
+
+    #wrapper {
+        margin-left: 3.5%;
+        margin-right: auto;
+        max-width: 1000px;
+        margin-bottom: 100px;
+        min-width: 600px;
+        margin-top: 130px;
+    }
+    
+    .teamsRight {
+        display: grid;
+        grid-template-columns: 35% 55%;
+        background-color: #39383b;
+        padding: 10px;
+        border: 10px;
+        border-radius: 10px;
+        left:10vw;
+        position: relative;    
+        box-shadow: 5px 5px 10px #18171a;
+    }
+
+    .teamsLeft {
+        display: grid;
+        grid-template-columns: 10% 53% 5% 35%;
+        background-color: #4b0098;
+        padding: 10px;
+        border: 10px;
+        border-radius: 10px;
+        right: 10vw;
+        position: relative;  
+        box-shadow: -5px 5px 10px #2d0059;
+    }
+}
+
+/*DESKTOP*/
+@media only screen and (min-width: 992px) {    
+    .menuBar {
+        background-color: #6600D0;
+        text-align: center;
+        border: 10px #6600D0 solid;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-left: -20px;
+        z-index: 999;
+    }
+    
+    .mobileMenu, .dropdown{
+        display: none;
+    }
+    
+    .menuContent {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    p, dd, dt, ul, li, a  {  
+        font-size: 11pt
+    }
+    
+    #wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1000px;
+        margin-bottom: 100px;
+        min-width: 500px;
+        margin-top: 150px;
+    }
+    
+    .resourcesContent {
+        margin-top: 150px;
+    }
+    
+    .menuGrid .currentMenu {
+        background-color: #4b0098;
+        border: 15px #4b0098 solid;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .mobileOnly {
+        display: none;
+    }
+    
+    .teamsRight {
+        display: grid;
+        grid-template-columns: 35% 55%;
+        background-color: #39383b;
+        padding: 10px;
+        border: 5px;
+        border-radius: 10px;
+        left:10vw;
+        position: relative;    
+        box-shadow: 5px 5px 10px #18171a;
+    }
+
+    .teamsLeft {
+        display: grid;
+        grid-template-columns: 10% 53% 5% 35%;
+        background-color: #4b0098;
+        padding: 10px;
+        border: 5px;
+        border-radius: 10px;
+        right: 10vw;
+        position: relative;  
+        box-shadow: -5px 5px 10px #2d0059;
+    }
+    .menuLogo {
+        font-size: 8pt;
+    }
+}
+
+body {
+    background-color: #A5A2A8;
+    background-image: linear-gradient(to bottom, #A5A2A8, #8D8A90);
+}
+
+.dropButton:active {
+    background: none;
+}
+
+.colored {
+    color: #39383b;
+}
+
+.menuGrid {
+    display: grid;
+    grid-template-columns: 22% 13% 13% 13% 13% 13% 13%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.menuLogo {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-gap: 0px;
+    padding-right: 5px
+}
+
+.menuOption {
+    display: inline;
+    text-decoration: none;
+}
+
+.menuTitle {
+    padding-left: 10px;
+    padding-right: 50px;
+}
+a.menuOption:hover, a.currentMenu:hover {
+    /*box-shadow: 0px 0px 10px white;*/
+    
+}
+
+
+.footer {
+    background-color: #39383b;
+    /*text-indent: 5%;*/
+    text-align: center;
+    border: 10px #39383b solid;
+    position: absolute;
+    bottom: auto;
+    padding-left: 1%;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 25% 15% 10% 10% 20% 10%;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 10px;
+}
+
+.footerFormat {
+    text-align: center;
+}
+
+.leftFloat {
+    display: flex;
+    width: 45%;
+    padding-right: 25px
+}
+
+.rightFloat {
+    float:right;
+    text-align: left;
+    
+}
+
+
+
+.teamsText {
+    background-color: #39383b;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: -5px 5px 10px #18171a;
+}
+
+#reduceMargins {
+    margin: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid > div {
+    padding-left: 15px;
+}
+
+.clearFloat {
+    clear: both;
+    padding-top: 5px
+    
+}
+
+
+a:link {
+    color: white
+}
+
+a:hover{
+    transition: 0.3s ease color;
+    color: #AA73E0
+}
+
+.hoverFlip img {
+    position: absolute;
+    transition: opacity 0.3s ease;
+    top: 60px;
+    
+}
+
+.top:hover {
+    opacity: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+font-family: monospace;
+}
+h1 {
+    color: #39383b;
+}
+
+
+
+.imageFormat {
+    width: 500px;
+}
+
+.flowLeft {
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+* {
+color: white;
+font-family: "Inconsolata";
+}
+
+.coloreddt dt {
+    color: #AA73E0
+}
+
+.forms input, .forms textarea {
+    color: #6600D0;
+    width: 100%;
+    border: 1px solid gray;
+    resize: vertical;
+}
+
+button {
+    color: black;
+    background-color: gray;
+    border: none;
+    width:100%;
+    padding: 10px;
+
+}
+button:hover {
+    
+    transition: 0.3s ease background-color;
+    background-color: #6600D0;
+}
+button:active {
+ background-color: #AA73E0;
+
+}
+
+.forms {
+    background-color: #39383b;
+    padding: 10px;
+    border: 3px solid gray;
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+.forms div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.smallText {
+    font-size: 7pt;
+}
+
+.textBlockGray {
+    background-color: #39383b;
+    margin:10px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #18171a;
+}
+
+.textBlockPurple {
+    background-color: #6600D0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px #2d0059;
+    margin: 10px;
+}
+
+
+.credit { 
+    margin-bottom: -4px;
+}
+
+#resourcesPage {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-right: 7%;
+    grid-gap: 3%;
+}
+
+.sideMenu {
+    display: block;
+    background-color: #2d0059;
+    align-items: center;
+    
+}
+
+.sideText {
+    margin-top: 100px;
+    position: fixed;
+    padding-right: 2%;
+    padding-left: 2%;
+    align-items: center;
+
+
+}
+
+.sideText li {
+    padding-left: 0px;
+    text-decoration: none;
+    list-style-position: outside;
+    list-style: none;
+}
+
+.resourcesContent {
+    display: block;
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -150px; 
+  visibility: hidden;
+}
+
+.scrollButton {
+    right: -4.5em;
+    margin-right: 0;
+    bottom: 1em;
+    position: fixed;
+    z-index: 999;
+    
+}
+
+.scrollButton img {
+    transform: rotate(270deg);
+    background-color: #2d0059;
+    border: 5px #2d0059 solid;
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}

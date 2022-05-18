@@ -1,0 +1,37 @@
+#imageSlides {
+    width: 100%;
+    border: 3px black solid;
+    margin:2%;
+}
+
+.imgcontainer {
+    background-color: #39383b;
+    border: 15px #39383b solid;
+    border-right: 40px #39383b solid;
+    border-left: 40px #39383b solid;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-gap: 10px;
+    justify-items: center;
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-height: 50%;
+}
+
+.buttonR, .buttonL{
+    opacity: 17%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.buttonR img, .buttonL img {
+    width: 25px;
+}
+
+.buttonL img {
+    transform: rotate(180deg)
+}
